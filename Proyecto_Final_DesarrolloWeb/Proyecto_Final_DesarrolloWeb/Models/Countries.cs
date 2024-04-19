@@ -8,6 +8,7 @@ namespace Proyecto_Final_DesarrolloWeb.Models
     public class Countries
     {
         [Key]
+        [RegularExpression(@"^[a-zA-Z]{2}$", ErrorMessage = "La llave debe contener exactamente dos letras.")]  
         [JsonPropertyName("country_id")]
         public string? COUNTRY_ID { get; set; }
 

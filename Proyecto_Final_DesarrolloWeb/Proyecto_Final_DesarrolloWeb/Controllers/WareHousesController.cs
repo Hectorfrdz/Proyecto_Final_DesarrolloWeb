@@ -1,7 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using Proyecto_Final_DesarrolloWeb.Data;
 using Proyecto_Final_DesarrolloWeb.Models;
+using System.Diagnostics.Metrics;
 
 namespace Proyecto_Final_DesarrolloWeb.Controllers
 {
@@ -15,10 +18,10 @@ namespace Proyecto_Final_DesarrolloWeb.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public ActionResult Index()
         {
-            IEnumerable<Warehouses> listaWarehouses = _context.Warehouses;
-            return View(listaWarehouses);
+            var datos = _context.Warehouses.Include(c => c.Locations).ToList();
+            return View(datos);
         }
 
         // DETAIL: warehous
@@ -29,7 +32,7 @@ namespace Proyecto_Final_DesarrolloWeb.Controllers
                 return NotFound();
             }
 
-            var warehous = _context.Warehouses.Find(id);
+            var warehous = _context.Warehouses.Include(c => c.Locations).FirstOrDefault(c => c.Warehouse_Id == id);
 
             if (warehous == null)
             {
@@ -42,7 +45,7 @@ namespace Proyecto_Final_DesarrolloWeb.Controllers
         //Http Get Create
         public IActionResult Create()
         {
-
+            ViewData["LOCATION_ID"] = new SelectList(_context.Locations, "LOCATION_ID", "ADDRESS");
             return View();
         }
 
@@ -51,16 +54,11 @@ namespace Proyecto_Final_DesarrolloWeb.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Warehouses Warehouses)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Warehouses.Add(Warehouses);
-                _context.SaveChanges();
+            _context.Warehouses.Add(Warehouses);
+            _context.SaveChanges();
 
-                TempData["mensaje"] = "La warehous se guardo correctamente";
-                return RedirectToAction("Index");
-            }
-
-            return View();
+            TempData["mensaje"] = "La warehous se guardo correctamente";
+            return RedirectToAction("Index");
         }
 
 
@@ -71,12 +69,13 @@ namespace Proyecto_Final_DesarrolloWeb.Controllers
             {
                 return NotFound();
             }
-            var periodo = _context.Warehouses.Find(id);
-            if (periodo == null)
+            var warehouse = _context.Warehouses.Find(id);
+            if (warehouse == null)
             {
                 return NotFound();
             }
-            return View(periodo);
+            ViewData["Location_ID"] = new SelectList(_context.Locations, "LOCATION_ID", "ADDRESS", warehouse);
+            return View(warehouse);
         }
 
 
@@ -85,16 +84,11 @@ namespace Proyecto_Final_DesarrolloWeb.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Warehouses warehous)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Warehouses.Update(warehous);
-                _context.SaveChanges();
+            _context.Warehouses.Update(warehous);
+            _context.SaveChanges();
 
-                TempData["mensaje"] = "La warehous se ha actualizado correctamente";
-                return RedirectToAction("Index");
-            }
-
-            return View();
+            TempData["mensaje"] = "La warehous se ha actualizado correctamente";
+            return RedirectToAction("Index");
         }
 
 

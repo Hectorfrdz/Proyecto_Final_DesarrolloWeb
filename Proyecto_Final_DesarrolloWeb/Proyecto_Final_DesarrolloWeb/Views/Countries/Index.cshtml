@@ -19,6 +19,9 @@
     <thead>
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.COUNTRY_ID)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.COUNTRY_NAME)
             </th>
             <th>
@@ -30,6 +33,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.COUNTRY_ID)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.COUNTRY_NAME)
             </td>

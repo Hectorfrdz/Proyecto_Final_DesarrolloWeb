@@ -17,6 +17,13 @@ namespace Proyecto_Final_DesarrolloWeb.Controllers
             _context = context;
         }
 
+        [AcceptVerbs("Get", "Post")]
+        public IActionResult VerifyCountryId(string COUNTRY_ID)
+        {
+            var exists = _context.Countries.Any(c => c.COUNTRY_ID == COUNTRY_ID);
+            return Json(!exists);
+        }
+
         public ActionResult Index()
         {
             var datos = _context.Countries.Include(c => c.Regions).ToList();
@@ -31,7 +38,8 @@ namespace Proyecto_Final_DesarrolloWeb.Controllers
                 return NotFound();
             }
 
-            var country = _context.Countries.Find(id);
+            // Incluye la propiedad de navegación Regions al cargar el país desde la base de datos
+            var country = _context.Countries.Include(c => c.Regions).FirstOrDefault(c => c.COUNTRY_ID == id);
 
             if (country == null)
             {
@@ -44,37 +52,24 @@ namespace Proyecto_Final_DesarrolloWeb.Controllers
         // CREATE: countrys
         public IActionResult Create()
         {
+            ViewData["Region_ID"] = new SelectList(_context.Regions, "REGION_ID", "REGION_NAME");
             return View();
         }
 
-        // POST: CountriesController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Countries country, string id)
+        public IActionResult Create(Countries country)
         {
+            //if (ModelState.IsValid)
+            //{
+                _context.Add(country);
+                _context.SaveChanges();
 
-            if (ModelState.IsValid)
-            {
-                if (id == "add")
-                {
+                return RedirectToAction("Index");
+            //}
 
-                    await _context.Countries.AddAsync(country);
-                    await _context.SaveChangesAsync();
-
-                    TempData["mensaje"] = "El Pais se guardo correctamente";
-                    return RedirectToAction(nameof(Index));
-                }
-                else
-                {
-                    _context.Countries.Update(country);
-                    await _context.SaveChangesAsync();
-
-                    TempData["mensaje"] = "Cambios guardados correctamente";
-                    return RedirectToAction(nameof(Index), new { id = "" });
-                }
-            }
-
-            return View(country);
+            //// Si la validación del modelo falla, retorna la vista con el modelo
+            //return View(country);
         }
 
         // EDIT: countrys
@@ -91,7 +86,7 @@ namespace Proyecto_Final_DesarrolloWeb.Controllers
             {
                 return NotFound();
             }
-
+            ViewData["Region_ID"] = new SelectList(_context.Regions, "REGION_ID", "REGION_NAME", country);
             return View(country);
         }
 
@@ -100,15 +95,10 @@ namespace Proyecto_Final_DesarrolloWeb.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Countries countrys)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Countries.Update(countrys);
-                _context.SaveChanges();
+            _context.Countries.Update(countrys);
+            _context.SaveChanges();
 
-                return RedirectToAction("Index");
-            }
-
-            return View();
+            return RedirectToAction("Index");
         }
 
         public IActionResult Delete(string? id)

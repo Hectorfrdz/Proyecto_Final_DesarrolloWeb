@@ -18,9 +18,10 @@ namespace Proyecto_Final_DesarrolloWeb.Models
         [JsonPropertyName("warehouse_name")]
         public string? Warehouse_Name { get; set; }
 
-        [StringLength(255)]
+        [ForeignKey("Locations")]
         [JsonPropertyName("location_id")]
-        public int? Location_Id { get; set; } 
+        public int LOCATION_ID { get; set; }
+        public required Locations Locations { get; set; }
 
         public List<Inventories>? Inventories { get; set; } 
     }

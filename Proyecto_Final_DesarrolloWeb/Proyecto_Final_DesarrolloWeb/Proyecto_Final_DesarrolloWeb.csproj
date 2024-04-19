@@ -19,7 +19,6 @@
     <Folder Include="Views\Contacts\" />
     <Folder Include="Views\Employees\" />
     <Folder Include="Views\Inventories\" />
-    <Folder Include="Views\Locations\" />
     <Folder Include="Views\Products\" />
     <Folder Include="Views\Orders\" />
     <Folder Include="Views\OrderItems\" />
