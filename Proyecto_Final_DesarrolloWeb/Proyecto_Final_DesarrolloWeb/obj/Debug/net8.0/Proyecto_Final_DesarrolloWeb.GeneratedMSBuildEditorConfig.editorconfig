@@ -1,0 +1,159 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Proyecto_Final_DesarrolloWeb
+build_property.RootNamespace = Proyecto_Final_DesarrolloWeb
+build_property.ProjectDir = C:\Users\Hecto\source\repos\Proyecto_Final_DesarrolloWeb\Proyecto_Final_DesarrolloWeb\Proyecto_Final_DesarrolloWeb\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Hecto\source\repos\Proyecto_Final_DesarrolloWeb\Proyecto_Final_DesarrolloWeb\Proyecto_Final_DesarrolloWeb
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Countries/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Countries/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Countries/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Countries/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Countries/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Customers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Customers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Customers/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Customers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Product_Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdF9DYXRlZ29yaWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Product_Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdF9DYXRlZ29yaWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Product_Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdF9DYXRlZ29yaWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Product_Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdF9DYXRlZ29yaWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Product_Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdF9DYXRlZ29yaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Regions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Regions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Regions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Regions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Regions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Shared/_csidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9jc2lkZWJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Shared/_footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9mb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Shared/_navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9uYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Shared/_sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9zaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Warehouses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FyZWhvdXNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hecto/source/repos/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Proyecto_Final_DesarrolloWeb/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-o2z4hwqh80

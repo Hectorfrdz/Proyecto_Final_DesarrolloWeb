@@ -1,0 +1,56 @@
+﻿@model Proyecto_Final_DesarrolloWeb.Models.Customers
+
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detail</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h4>Customer Details</h4>
+            </div>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.NAME)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.NAME)
+                    </dd>
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.ADDRESS)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.ADDRESS)
+                    </dd>
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.WEBSITE)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.WEBSITE)
+                    </dd>
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.CREDIT_LIMIT)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.CREDIT_LIMIT)
+                    </dd>
+                </dl>
+            </div>
+            <div class="card-footer">
+                <a asp-action="Index" class="btn btn-primary">Back to List</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
