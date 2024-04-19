@@ -7843,11 +7843,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hecto\\source\\repos\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj",
       "projectName": "Proyecto_Final_DesarrolloWeb",
-      "projectPath": "C:\\Users\\Hecto\\source\\repos\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj",
+      "projectPath": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj",
       "packagesPath": "C:\\Users\\Hecto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hecto\\source\\repos\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\obj\\",
+      "outputPath": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hecto\\AppData\\Roaming\\NuGet\\NuGet.Config",

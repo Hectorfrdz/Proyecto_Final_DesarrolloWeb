@@ -12,6 +12,7 @@
     <title>Index</title>
 </head>
 <body>
+
 <p>
     <a asp-action="Create">Create New</a>
 </p>
@@ -22,7 +23,7 @@
                 @Html.DisplayNameFor(model => model.Warehouse_Name)
             </th>
             <th>
-                    @Html.DisplayNameFor(model => model.Location_Id)
+                @Html.DisplayNameFor(model => model.Locations)
             </th>
             <th></th>
         </tr>
@@ -34,7 +35,7 @@
                 @Html.DisplayFor(modelItem => item.Warehouse_Name)
             </td>
             <td>
-                        @Html.DisplayFor(modelItem => item.Location_Id)
+                @Html.DisplayFor(modelItem => item.Locations.ADDRESS)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Warehouse_Id">Edit</a> |

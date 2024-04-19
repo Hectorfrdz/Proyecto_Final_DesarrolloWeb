@@ -9,28 +9,28 @@ namespace Proyecto_Final_DesarrolloWeb.Models
     {
         [Key]
         [JsonPropertyName("location_id")]
-        public int LocationId { get; set; }
+        public int LOCATION_ID { get; set; }
 
         [Required]
         [StringLength(255)]
         [JsonPropertyName("address")]
-        public string? Address { get; set; }
+        public string? ADDRESS { get; set; }
 
         [StringLength(20)]
         [JsonPropertyName("postal_code")]
-        public string? PostalCode { get; set; }
+        public string? POSTAL_CODE { get; set; }
 
         [StringLength(50)]
         [JsonPropertyName("city")]
-        public string? City { get; set; }
+        public string? CITY { get; set; }
 
         [StringLength(50)]
         [JsonPropertyName("state")]
-        public string? State { get; set; }
+        public string? STATE { get; set; }
 
         [ForeignKey("Country")]
         [JsonPropertyName("country_id")]
-        public string CountryId { get; set; }
-        public Countries? Country { get; set; }
+        public required string COUNTRY_ID { get; set; }
+        public required Countries Country { get; set; }
     }
 }
