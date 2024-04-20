@@ -15,7 +15,6 @@ namespace Proyecto_Final_DesarrolloWeb.Data
         public DbSet<Contacts> Contacts { get; set; }
         public DbSet<Countries> Countries { get; set; }
         public DbSet<Employees> Employees { get; set; }
-        public DbSet<Inventories> Inventories { get; set; }
         public DbSet<Locations> Locations { get; set; }
         public DbSet<OrderItems> Orderitems { get; set; }
         public DbSet<Orders> Orders { get; set; }

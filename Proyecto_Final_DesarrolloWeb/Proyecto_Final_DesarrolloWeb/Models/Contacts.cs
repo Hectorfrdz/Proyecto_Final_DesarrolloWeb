@@ -8,31 +8,32 @@ namespace Proyecto_Final_DesarrolloWeb.Models
     public class Contacts
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [JsonPropertyName("contact_id")] 
-        public int ContactId { get; set; }
+        public int CONTACT_ID { get; set; }
 
         [Required]
         [StringLength(255)]
         [JsonPropertyName("first_name")]
-        public string? FirstName { get; set; }
+        public string? FIRST_NAME { get; set; }
 
         [Required]
         [StringLength(255)]
         [JsonPropertyName("last_name")]
-        public string? LastName { get; set; }
+        public string? LAST_NAME { get; set; }
 
         [Required]
         [StringLength(255)]
         [DataType(DataType.EmailAddress)]
         [JsonPropertyName("email")]
-        public string? Email { get; set; }
+        public string? EMAIL { get; set; }
 
         [StringLength(20)]
         [JsonPropertyName("phone")]
-        public string? Phone { get; set; }
+        public string? PHONE { get; set; }
 
+        [ForeignKey("Customers")]
         [JsonPropertyName("customer_id")]
-        public int? CustomerId { get; set; }
+        public int CUSTOMER_ID { get; set; }
+        public required Customers Customers{ get; set; }
     }
 }

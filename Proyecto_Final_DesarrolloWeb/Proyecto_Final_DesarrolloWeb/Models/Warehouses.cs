@@ -23,6 +23,5 @@ namespace Proyecto_Final_DesarrolloWeb.Models
         public int LOCATION_ID { get; set; }
         public required Locations Locations { get; set; }
 
-        public List<Inventories>? Inventories { get; set; } 
     }
 }

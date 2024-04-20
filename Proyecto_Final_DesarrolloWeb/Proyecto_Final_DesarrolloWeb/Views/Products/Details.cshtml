@@ -1,0 +1,56 @@
+﻿@model Proyecto_Final_DesarrolloWeb.Models.Products
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+
+<div>
+    <h4>Products</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PRODUCT_NAME)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PRODUCT_NAME)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DESCRIPTION)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DESCRIPTION)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.STANDARD_COST)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.STANDARD_COST)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LIST_PRICE)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LIST_PRICE)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.product_categories)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.product_categories.CATEGORY_NAME)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+</body>
+</html>

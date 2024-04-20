@@ -3,36 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|c:\\users\\hecto\\onedrive\\desktop\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\views\\warehouses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|solutionrelative:proyecto_final_desarrolloweb\\views\\warehouses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|c:\\users\\hecto\\onedrive\\desktop\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|solutionrelative:proyecto_final_desarrolloweb\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|c:\\users\\hecto\\onedrive\\desktop\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|solutionrelative:proyecto_final_desarrolloweb\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|c:\\users\\hecto\\onedrive\\desktop\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|solutionrelative:proyecto_final_desarrolloweb\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|c:\\users\\hecto\\onedrive\\desktop\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|solutionrelative:proyecto_final_desarrolloweb\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|c:\\users\\hecto\\onedrive\\desktop\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|solutionrelative:proyecto_final_desarrolloweb\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|c:\\users\\hecto\\onedrive\\desktop\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|solutionrelative:proyecto_final_desarrolloweb\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|c:\\users\\hecto\\onedrive\\desktop\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|solutionrelative:proyecto_final_desarrolloweb\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|c:\\users\\hecto\\onedrive\\desktop\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\models\\warehouses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|solutionrelative:proyecto_final_desarrolloweb\\models\\warehouses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|c:\\users\\hecto\\onedrive\\desktop\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\proyecto_final_desarrolloweb\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CE4F21-1662-4904-9493-D751294334C3}|Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb.csproj|solutionrelative:proyecto_final_desarrolloweb\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedHeight": 381,
           "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "_sidebar.cshtml",
               "DocumentMoniker": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Views\\Shared\\_sidebar.cshtml",
               "RelativeDocumentMoniker": "Proyecto_Final_DesarrolloWeb\\Views\\Shared\\_sidebar.cshtml",
               "ToolTip": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Views\\Shared\\_sidebar.cshtml",
               "RelativeToolTip": "Proyecto_Final_DesarrolloWeb\\Views\\Shared\\_sidebar.cshtml",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAAwE4AAABJAAAA",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAiwBAAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-19T19:13:03.385Z",
               "IsPinned": true,
@@ -41,28 +61,103 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Views\\Warehouses\\Index.cshtml",
-              "RelativeDocumentMoniker": "Proyecto_Final_DesarrolloWeb\\Views\\Warehouses\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Views\\Warehouses\\Index.cshtml",
-              "RelativeToolTip": "Proyecto_Final_DesarrolloWeb\\Views\\Warehouses\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Title": "_footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Views\\Shared\\_footer.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_Final_DesarrolloWeb\\Views\\Shared\\_footer.cshtml",
+              "ToolTip": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Views\\Shared\\_footer.cshtml",
+              "RelativeToolTip": "Proyecto_Final_DesarrolloWeb\\Views\\Shared\\_footer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-19T23:23:46.909Z",
+              "WhenOpened": "2024-04-20T03:38:14.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LocationsController.cs",
-              "DocumentMoniker": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Controllers\\LocationsController.cs",
-              "RelativeDocumentMoniker": "Proyecto_Final_DesarrolloWeb\\Controllers\\LocationsController.cs",
-              "ToolTip": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Controllers\\LocationsController.cs",
-              "RelativeToolTip": "Proyecto_Final_DesarrolloWeb\\Controllers\\LocationsController.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAkwIIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T23:22:10.232Z",
+              "DocumentIndex": 2,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_Final_DesarrolloWeb\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Proyecto_Final_DesarrolloWeb\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T03:34:13.058Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_Final_DesarrolloWeb\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "Proyecto_Final_DesarrolloWeb\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAC0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T03:30:40.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Models\\Orders.cs",
+              "RelativeDocumentMoniker": "Proyecto_Final_DesarrolloWeb\\Models\\Orders.cs",
+              "ToolTip": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Models\\Orders.cs",
+              "RelativeToolTip": "Proyecto_Final_DesarrolloWeb\\Models\\Orders.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T03:22:05.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Warehouses.cs",
+              "DocumentMoniker": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Models\\Warehouses.cs",
+              "RelativeDocumentMoniker": "Proyecto_Final_DesarrolloWeb\\Models\\Warehouses.cs",
+              "ToolTip": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Models\\Warehouses.cs",
+              "RelativeToolTip": "Proyecto_Final_DesarrolloWeb\\Models\\Warehouses.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T03:16:30.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_Final_DesarrolloWeb\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "Proyecto_Final_DesarrolloWeb\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACcAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T03:20:47.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Proyecto_Final_DesarrolloWeb\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Hecto\\OneDrive\\Desktop\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Proyecto_Final_DesarrolloWeb\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Proyecto_Final_DesarrolloWeb\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAAwEoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T03:10:06.427Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 211,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

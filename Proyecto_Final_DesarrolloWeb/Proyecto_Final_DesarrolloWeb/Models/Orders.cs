@@ -10,31 +10,25 @@ namespace Proyecto_Final_DesarrolloWeb.Models
     public class Orders
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [JsonPropertyName("order_id")]
-        public int OrderId { get; set; }
+        public int ORDER_ID { get; set; }
 
-        [Required]
-        [ForeignKey("Customer")]
+        [ForeignKey("Customers")]
         [JsonPropertyName("customer_id")]
-        public int CustomerId { get; set; }
-        public Customers? Customer { get; set; } 
+        public int CUSTOMER_ID { get; set; }
+        public required Customers Customers { get; set; }
 
-        [Required]
-        [ForeignKey("Salesman")]
         [JsonPropertyName("salesman_id")]
-        public int? SalesmanId { get; set; } 
-        public Employees? Salesman { get; set; }
+        public int? SALESMAN_ID { get; set; }
 
         [Required]
         [DataType(DataType.Date)]
         [JsonPropertyName("order_date")]
-        public DateTime OrderDate { get; set; }
+        public DateTime ORDER_DATE { get; set; }
 
         [Required]
-        [StringLength(255)]
         [JsonPropertyName("status")]
-        public required string Status { get; set; }
+        public required string STATUS { get; set; }
 
         public List<OrderItems>? OrderItems { get; set; }
     }

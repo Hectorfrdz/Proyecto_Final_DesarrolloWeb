@@ -8,32 +8,31 @@ namespace Proyecto_Final_DesarrolloWeb.Models
     public class Products
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [JsonPropertyName("product_id")]
-        public int ProductId { get; set; }
+        public int PRODUCT_ID { get; set; }
 
         [Required]
         [StringLength(255)]
         [JsonPropertyName("product_name")]
-        public string? ProductName { get; set; }
+        public string? PRODUCT_NAME { get; set; }
 
         [StringLength(2000)]
         [JsonPropertyName("description")]
-        public string? Description { get; set; } 
+        public string? DESCRIPTION { get; set; } 
 
         [Column(TypeName = "decimal(9, 2)")]
         [JsonPropertyName("standard_cost")]
-        public decimal StandardCost { get; set; }
+        public decimal STANDARD_COST { get; set; }
 
         [Column(TypeName = "decimal(9, 2)")]
         [JsonPropertyName("list_price")]
-        public decimal ListPrice { get; set; }
+        public decimal LIST_PRICE { get; set; }
 
-        [Required]
-        [ForeignKey("Category")]
+        [ForeignKey("product_categories")]
         [JsonPropertyName("category_id")]
-        public int CategoryId { get; set; }
-        public Product_Categories? Category { get; set; }
+        public int CATEGORY_ID { get; set; }
+        public required Product_Categories product_categories { get; set; }
+
 
         public List<OrderItems>? OrderItems { get; set; }
     }
