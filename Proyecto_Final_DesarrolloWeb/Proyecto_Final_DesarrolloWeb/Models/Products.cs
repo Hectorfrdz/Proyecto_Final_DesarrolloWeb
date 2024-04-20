@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
@@ -8,32 +8,25 @@ namespace Proyecto_Final_DesarrolloWeb.Models
     public class Products
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [JsonPropertyName("product_id")]
-        public int ProductId { get; set; }
+        public int product_id { get; set; }
 
-        [Required]
-        [StringLength(255)]
         [JsonPropertyName("product_name")]
-        public string? ProductName { get; set; }
+        public string? product_name { get; set; }
 
-        [StringLength(2000)]
         [JsonPropertyName("description")]
-        public string? Description { get; set; } 
+        public string? description { get; set; } 
 
-        [Column(TypeName = "decimal(9, 2)")]
         [JsonPropertyName("standard_cost")]
-        public decimal StandardCost { get; set; }
+        public decimal standard_cost { get; set; }
 
-        [Column(TypeName = "decimal(9, 2)")]
         [JsonPropertyName("list_price")]
-        public decimal ListPrice { get; set; }
+        public decimal list_price { get; set; }
 
-        [Required]
-        [ForeignKey("Category")]
+        [ForeignKey("Product_Categories")]
         [JsonPropertyName("category_id")]
-        public int CategoryId { get; set; }
-        public Product_Categories? Category { get; set; }
+        public int category_id { get; set; }
+        public required Product_Categories Product_Categories { get; set; }
 
         public List<OrderItems>? OrderItems { get; set; }
     }
